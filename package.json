@@ -1,0 +1,22 @@
+{
+  "name": "breezy-pdf-client",
+  "version": "0.0.1",
+  "description": "API client for BreezyPDF.com",
+  "main": "index.js",
+  "repository": "git@github.com:danielwestendorf/breezy-pdf-client-js.git",
+  "author": "Daniel Westendorf",
+  "license": "MIT",
+  "scripts": {
+    "test": "teenytest 'test/**/*-test.js' --helper test/helper.js && ./node_modules/.bin/eslint *.js, **/**.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "teenytest": "^5.1.1",
+    "testdouble": "^3.8.1"
+  }
+}
